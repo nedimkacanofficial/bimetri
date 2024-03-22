@@ -13,6 +13,5 @@ public class StudentResponseDto {
     private Long id;
     private String name;
     private String surname;
-    private String schoolNumber;
-    private String studentClass;
+    private Long schoolNumber;
 }

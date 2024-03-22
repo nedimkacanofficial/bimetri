@@ -5,7 +5,7 @@ import lombok.Data;
 
 import java.io.Serial;
 import java.io.Serializable;
-import java.util.Set;
+import java.util.List;
 
 @Data
 @Entity
@@ -27,9 +27,6 @@ public class Student implements Serializable {
     @Column(length = 50, nullable = false)
     private String schoolNumber;
 
-    @Column(length = 50, nullable = false)
-    private String studentClass;
-
     @ManyToMany(mappedBy = "students", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private Set<Course> courses;
+    private List<Course> courses;
 }

@@ -8,11 +8,13 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class StudentMapper {
-    public static StudentResponseDto toDTO(Student contactMessage) {
+    public static StudentResponseDto toDTO(Student student) {
         StudentResponseDto responseDTO = new StudentResponseDto();
 
-        responseDTO.setId(contactMessage.getId());
-        responseDTO.setName(contactMessage.getName());
+        responseDTO.setId(student.getId());
+        responseDTO.setName(student.getName());
+        responseDTO.setSurname(student.getSurname());
+        responseDTO.setSchoolNumber(Long.valueOf(student.getSchoolNumber()));
 
         return responseDTO;
     }
@@ -24,7 +26,6 @@ public class StudentMapper {
         student.setName(requestDTO.getName());
         student.setSurname(requestDTO.getSurname());
         student.setSchoolNumber(requestDTO.getSchoolNumber());
-        student.setStudentClass(requestDTO.getStudentClass());
 
         return student;
     }
