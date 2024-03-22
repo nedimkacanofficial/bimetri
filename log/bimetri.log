@@ -3904,3 +3904,754 @@ java.lang.NullPointerException: Cannot read field "generatedClass" because "data
 2024-03-22 04:51:47,881 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port 8080 (http) with context path ''
 2024-03-22 04:51:47,888 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Started BimetriApplication in 0.85 seconds (process running for 554.232)
 2024-03-22 04:51:47,889 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:Condition evaluation unchanged
+2024-03-22 06:13:03,248 WARN  [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=53m45s329ms416µs900ns).
+2024-03-22 06:30:45,703 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-22 06:30:46,116 INFO  [http-nio-8080-exec-3] org.springdoc.api.AbstractOpenApiResource:Init duration for springdoc-openapi is: 157 ms
+2024-03-22 06:30:59,123 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.StudentController:Course all students Course ID: 3
+2024-03-22 06:30:59,123 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.StudentService:Fetching course with student.
+2024-03-22 06:30:59,192 WARN  [http-nio-8080-exec-10] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [com.bimetri.demo.exception.ResourceNotFoundException: Resource with id: 3 not found!]
+2024-03-22 06:31:03,799 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.StudentController:Course all students Course ID: 1
+2024-03-22 06:31:03,799 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.StudentService:Fetching course with student.
+2024-03-22 07:01:18,740 WARN  [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=9m14s994ms506µs200ns).
+2024-03-22 07:19:51,771 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.StudentController:Fetching student with ID: 2
+2024-03-22 07:19:51,771 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.StudentService:Fetching student with ID: 2
+2024-03-22 07:19:51,784 WARN  [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [com.bimetri.demo.exception.ResourceNotFoundException: Resource with id: 2 not found!]
+2024-03-22 08:45:52,008 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 08:45:52,008 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 11:53:13,064 WARN  [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=2h12m31s117ms443µs300ns).
+2024-03-22 11:58:55,553 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.StudentController:Fetching student with ID: 1
+2024-03-22 11:58:55,553 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.StudentService:Fetching student with ID: 1
+2024-03-22 11:59:10,943 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.StudentController:Fetching student with ID: 54
+2024-03-22 11:59:10,943 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.StudentService:Fetching student with ID: 54
+2024-03-22 11:59:10,959 WARN  [http-nio-8080-exec-1] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [com.bimetri.demo.exception.ResourceNotFoundException: Resource with id: 54 not found!]
+2024-03-22 15:48:37,675 WARN  [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=2h28m32s123ms408µs).
+2024-03-22 16:10:10,887 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 16:10:10,887 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 16:38:49,330 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-03-22 16:38:49,434 INFO  [Thread-50] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 16:38:49,456 INFO  [Thread-50] com.zaxxer.hikari.HikariDataSource:HikariPool-9 - Shutdown initiated...
+2024-03-22 16:38:49,457 INFO  [Thread-50] com.zaxxer.hikari.HikariDataSource:HikariPool-9 - Shutdown completed.
+2024-03-22 16:38:49,716 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Starting BimetriApplication using Java 17.0.9 with PID 22472 (C:\Users\msi\IdeaProjects\bimetri\target\classes started by msi in C:\Users\msi\IdeaProjects\bimetri)
+2024-03-22 16:38:49,716 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:No active profile set, falling back to 1 default profile: "default"
+2024-03-22 16:38:49,951 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-22 16:38:49,958 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 6 ms. Found 2 JPA repository interfaces.
+2024-03-22 16:38:49,985 WARN  [restartedMain] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: java.lang.NullPointerException: Cannot read field "generatedClass" because "data" is null
+2024-03-22 16:38:49,992 INFO  [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger:
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-22 16:38:49,994 ERROR [restartedMain] org.springframework.boot.SpringApplication:Application run failed
+java.lang.NullPointerException: Cannot read field "generatedClass" because "data" is null
+	at org.springframework.cglib.proxy.Enhancer.nextInstance(Enhancer.java:783) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:321) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.cglib.proxy.Enhancer.createHelper(Enhancer.java:562) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.cglib.proxy.Enhancer.createClass(Enhancer.java:407) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.createClass(ConfigurationClassEnhancer.java:138) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.enhance(ConfigurationClassEnhancer.java:109) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:533) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanFactory(ConfigurationClassPostProcessor.java:310) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:153) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.3.jar:3.2.3]
+	at com.bimetri.demo.BimetriApplication.main(BimetriApplication.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.3.jar:3.2.3]
+2024-03-22 16:39:23,404 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Starting BimetriApplication using Java 17.0.9 with PID 26548 (C:\Users\msi\IdeaProjects\bimetri\target\classes started by msi in C:\Users\msi\IdeaProjects\bimetri)
+2024-03-22 16:39:23,405 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:No active profile set, falling back to 1 default profile: "default"
+2024-03-22 16:39:23,445 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-22 16:39:23,445 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-22 16:39:24,142 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-22 16:39:24,183 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
+2024-03-22 16:39:24,714 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port 8080 (http)
+2024-03-22 16:39:24,724 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2024-03-22 16:39:24,725 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-22 16:39:24,763 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2024-03-22 16:39:24,763 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1317 ms
+2024-03-22 16:39:24,988 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-22 16:39:25,053 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-22 16:39:25,088 INFO  [restartedMain] org.hibernate.cache.internal.RegionFactoryInitiator:HHH000026: Second-level cache disabled
+2024-03-22 16:39:25,298 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-22 16:39:25,323 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2024-03-22 16:39:25,452 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5fe1da5c
+2024-03-22 16:39:25,453 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2024-03-22 16:39:25,497 WARN  [restartedMain] org.hibernate.orm.deprecation:HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-22 16:39:26,244 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-22 16:39:26,323 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 16:39:26,728 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-22 16:39:27,357 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2024-03-22 16:39:27,362 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2024-03-22 16:39:27,435 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port 8080 (http) with context path ''
+2024-03-22 16:39:27,448 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Started BimetriApplication in 4.355 seconds (process running for 5.326)
+2024-03-22 16:39:27,841 INFO  [RMI TCP Connection(3)-172.18.240.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-22 16:45:29,497 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 16:45:29,500 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2024-03-22 16:45:29,502 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2024-03-22 16:45:34,032 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Starting BimetriApplication using Java 17.0.9 with PID 15916 (C:\Users\msi\IdeaProjects\bimetri\target\classes started by msi in C:\Users\msi\IdeaProjects\bimetri)
+2024-03-22 16:45:34,034 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:No active profile set, falling back to 1 default profile: "default"
+2024-03-22 16:45:34,073 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-22 16:45:34,073 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-22 16:45:34,738 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-22 16:45:34,778 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
+2024-03-22 16:45:35,249 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port 8080 (http)
+2024-03-22 16:45:35,256 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2024-03-22 16:45:35,256 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-22 16:45:35,289 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2024-03-22 16:45:35,289 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1216 ms
+2024-03-22 16:45:35,477 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-22 16:45:35,513 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-22 16:45:35,535 INFO  [restartedMain] org.hibernate.cache.internal.RegionFactoryInitiator:HHH000026: Second-level cache disabled
+2024-03-22 16:45:35,679 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-22 16:45:35,698 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2024-03-22 16:45:35,798 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@698b15ba
+2024-03-22 16:45:35,799 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2024-03-22 16:45:35,822 WARN  [restartedMain] org.hibernate.orm.deprecation:HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-22 16:45:36,446 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-22 16:45:36,500 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 16:45:36,869 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-22 16:45:37,439 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2024-03-22 16:45:37,444 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2024-03-22 16:45:37,510 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port 8080 (http) with context path ''
+2024-03-22 16:45:37,522 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Started BimetriApplication in 3.801 seconds (process running for 4.287)
+2024-03-22 16:45:37,920 INFO  [RMI TCP Connection(3)-172.18.240.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-22 16:46:23,628 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 16:46:23,631 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2024-03-22 16:46:23,634 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2024-03-22 16:47:16,395 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Starting BimetriApplication using Java 17.0.9 with PID 23680 (C:\Users\msi\IdeaProjects\bimetri\target\classes started by msi in C:\Users\msi\IdeaProjects\bimetri)
+2024-03-22 16:47:16,396 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:No active profile set, falling back to 1 default profile: "default"
+2024-03-22 16:47:16,426 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-22 16:47:16,426 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-22 16:47:17,071 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-22 16:47:17,103 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+2024-03-22 16:47:17,569 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port 8080 (http)
+2024-03-22 16:47:17,582 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2024-03-22 16:47:17,582 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-22 16:47:17,614 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2024-03-22 16:47:17,614 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1188 ms
+2024-03-22 16:47:17,804 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-22 16:47:17,836 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-22 16:47:17,854 INFO  [restartedMain] org.hibernate.cache.internal.RegionFactoryInitiator:HHH000026: Second-level cache disabled
+2024-03-22 16:47:18,005 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-22 16:47:18,025 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2024-03-22 16:47:18,135 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e0e7545
+2024-03-22 16:47:18,136 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2024-03-22 16:47:18,159 WARN  [restartedMain] org.hibernate.orm.deprecation:HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-22 16:47:18,864 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-22 16:47:18,918 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 16:47:19,302 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-22 16:47:19,875 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2024-03-22 16:47:19,880 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2024-03-22 16:47:19,944 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port 8080 (http) with context path ''
+2024-03-22 16:47:19,956 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Started BimetriApplication in 3.872 seconds (process running for 4.345)
+2024-03-22 16:47:20,065 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-22 16:47:20,450 INFO  [http-nio-8080-exec-5] org.springdoc.api.AbstractOpenApiResource:Init duration for springdoc-openapi is: 157 ms
+2024-03-22 16:58:04,738 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 16:58:04,742 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2024-03-22 16:58:04,745 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2024-03-22 16:58:07,401 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Starting BimetriApplication using Java 17.0.9 with PID 25800 (C:\Users\msi\IdeaProjects\bimetri\target\classes started by msi in C:\Users\msi\IdeaProjects\bimetri)
+2024-03-22 16:58:07,401 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:No active profile set, falling back to 1 default profile: "default"
+2024-03-22 16:58:07,439 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-22 16:58:07,439 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-22 16:58:08,097 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-22 16:58:08,133 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces.
+2024-03-22 16:58:08,593 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port 8080 (http)
+2024-03-22 16:58:08,601 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2024-03-22 16:58:08,601 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-22 16:58:08,638 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2024-03-22 16:58:08,639 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1198 ms
+2024-03-22 16:58:08,832 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-22 16:58:08,891 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-22 16:58:08,921 INFO  [restartedMain] org.hibernate.cache.internal.RegionFactoryInitiator:HHH000026: Second-level cache disabled
+2024-03-22 16:58:09,104 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-22 16:58:09,127 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2024-03-22 16:58:09,226 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@8113685
+2024-03-22 16:58:09,227 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2024-03-22 16:58:09,256 WARN  [restartedMain] org.hibernate.orm.deprecation:HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-22 16:58:09,948 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-22 16:58:10,004 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 16:58:10,381 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-22 16:58:10,965 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2024-03-22 16:58:10,970 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2024-03-22 16:58:11,038 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port 8080 (http) with context path ''
+2024-03-22 16:58:11,051 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Started BimetriApplication in 3.95 seconds (process running for 4.426)
+2024-03-22 16:58:11,317 INFO  [RMI TCP Connection(2)-172.18.240.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-22 16:58:53,767 INFO  [http-nio-8080-exec-4] org.springdoc.api.AbstractOpenApiResource:Init duration for springdoc-openapi is: 124 ms
+2024-03-22 16:59:34,520 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 16:59:34,525 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2024-03-22 16:59:34,527 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2024-03-22 16:59:38,514 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Starting BimetriApplication using Java 17.0.9 with PID 21484 (C:\Users\msi\IdeaProjects\bimetri\target\classes started by msi in C:\Users\msi\IdeaProjects\bimetri)
+2024-03-22 16:59:38,516 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:No active profile set, falling back to 1 default profile: "default"
+2024-03-22 16:59:38,552 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-22 16:59:38,553 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-22 16:59:39,176 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-22 16:59:39,211 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces.
+2024-03-22 16:59:39,647 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port 8080 (http)
+2024-03-22 16:59:39,653 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2024-03-22 16:59:39,653 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-22 16:59:39,683 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2024-03-22 16:59:39,684 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1131 ms
+2024-03-22 16:59:39,859 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-22 16:59:39,897 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-22 16:59:39,917 INFO  [restartedMain] org.hibernate.cache.internal.RegionFactoryInitiator:HHH000026: Second-level cache disabled
+2024-03-22 16:59:40,064 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-22 16:59:40,083 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2024-03-22 16:59:40,183 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2863e652
+2024-03-22 16:59:40,184 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2024-03-22 16:59:40,205 WARN  [restartedMain] org.hibernate.orm.deprecation:HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-22 16:59:40,849 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-22 16:59:40,905 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 16:59:41,270 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-22 16:59:41,804 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2024-03-22 16:59:41,810 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2024-03-22 16:59:41,873 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port 8080 (http) with context path ''
+2024-03-22 16:59:41,886 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Started BimetriApplication in 3.659 seconds (process running for 4.147)
+2024-03-22 16:59:42,427 INFO  [RMI TCP Connection(1)-172.18.240.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-22 16:59:50,548 INFO  [http-nio-8080-exec-4] org.springdoc.api.AbstractOpenApiResource:Init duration for springdoc-openapi is: 151 ms
+2024-03-22 17:02:38,891 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:02:38,894 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2024-03-22 17:02:38,898 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2024-03-22 17:02:42,569 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Starting BimetriApplication using Java 17.0.9 with PID 2076 (C:\Users\msi\IdeaProjects\bimetri\target\classes started by msi in C:\Users\msi\IdeaProjects\bimetri)
+2024-03-22 17:02:42,570 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:No active profile set, falling back to 1 default profile: "default"
+2024-03-22 17:02:42,608 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-22 17:02:42,608 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-22 17:02:43,244 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-22 17:02:43,278 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 29 ms. Found 2 JPA repository interfaces.
+2024-03-22 17:02:43,779 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port 8080 (http)
+2024-03-22 17:02:43,787 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2024-03-22 17:02:43,787 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-22 17:02:43,825 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2024-03-22 17:02:43,825 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1217 ms
+2024-03-22 17:02:44,049 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-22 17:02:44,089 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-22 17:02:44,112 INFO  [restartedMain] org.hibernate.cache.internal.RegionFactoryInitiator:HHH000026: Second-level cache disabled
+2024-03-22 17:02:44,268 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-22 17:02:44,287 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2024-03-22 17:02:44,388 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@39af13c5
+2024-03-22 17:02:44,389 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2024-03-22 17:02:44,412 WARN  [restartedMain] org.hibernate.orm.deprecation:HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-22 17:02:45,033 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-22 17:02:45,085 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:02:45,437 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-22 17:02:45,981 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2024-03-22 17:02:45,985 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2024-03-22 17:02:46,046 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port 8080 (http) with context path ''
+2024-03-22 17:02:46,058 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Started BimetriApplication in 3.797 seconds (process running for 4.259)
+2024-03-22 17:02:46,166 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-22 17:02:46,487 INFO  [http-nio-8080-exec-4] org.springdoc.api.AbstractOpenApiResource:Init duration for springdoc-openapi is: 176 ms
+2024-03-22 17:02:53,846 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:02:53,846 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:03:41,011 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:03:41,011 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2024-03-22 17:03:41,018 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2024-03-22 17:03:44,195 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Starting BimetriApplication using Java 17.0.9 with PID 22080 (C:\Users\msi\IdeaProjects\bimetri\target\classes started by msi in C:\Users\msi\IdeaProjects\bimetri)
+2024-03-22 17:03:44,196 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:No active profile set, falling back to 1 default profile: "default"
+2024-03-22 17:03:44,236 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-22 17:03:44,236 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-22 17:03:44,847 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-22 17:03:44,882 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces.
+2024-03-22 17:03:45,329 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port 8080 (http)
+2024-03-22 17:03:45,336 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2024-03-22 17:03:45,336 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-22 17:03:45,371 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2024-03-22 17:03:45,371 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1135 ms
+2024-03-22 17:03:45,553 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-22 17:03:45,591 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-22 17:03:45,612 INFO  [restartedMain] org.hibernate.cache.internal.RegionFactoryInitiator:HHH000026: Second-level cache disabled
+2024-03-22 17:03:45,747 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-22 17:03:45,765 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2024-03-22 17:03:45,866 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@698b15ba
+2024-03-22 17:03:45,867 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2024-03-22 17:03:45,888 WARN  [restartedMain] org.hibernate.orm.deprecation:HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-22 17:03:46,492 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-22 17:03:46,546 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:03:46,884 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-22 17:03:47,463 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2024-03-22 17:03:47,468 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2024-03-22 17:03:47,526 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port 8080 (http) with context path ''
+2024-03-22 17:03:47,543 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Started BimetriApplication in 3.642 seconds (process running for 4.104)
+2024-03-22 17:03:48,125 INFO  [RMI TCP Connection(3)-172.18.240.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-22 17:29:12,578 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+2024-03-22 17:29:12,593 INFO  [Thread-5] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:29:12,596 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2024-03-22 17:29:12,599 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2024-03-22 17:29:12,663 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Starting BimetriApplication using Java 17.0.9 with PID 22080 (C:\Users\msi\IdeaProjects\bimetri\target\classes started by msi in C:\Users\msi\IdeaProjects\bimetri)
+2024-03-22 17:29:12,663 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:No active profile set, falling back to 1 default profile: "default"
+2024-03-22 17:29:12,924 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-22 17:29:12,932 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+2024-03-22 17:29:13,055 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port 8080 (http)
+2024-03-22 17:29:13,056 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2024-03-22 17:29:13,056 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-22 17:29:13,066 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2024-03-22 17:29:13,067 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 402 ms
+2024-03-22 17:29:13,137 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-22 17:29:13,138 INFO  [restartedMain] org.hibernate.cache.internal.RegionFactoryInitiator:HHH000026: Second-level cache disabled
+2024-03-22 17:29:13,141 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-22 17:29:13,142 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-2 - Starting...
+2024-03-22 17:29:13,160 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@292f8b83
+2024-03-22 17:29:13,161 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-2 - Start completed.
+2024-03-22 17:29:13,164 WARN  [restartedMain] org.hibernate.orm.deprecation:HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-22 17:29:13,197 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-22 17:29:13,223 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:29:13,355 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-22 17:29:13,641 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2024-03-22 17:29:13,644 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2024-03-22 17:29:13,666 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port 8080 (http) with context path ''
+2024-03-22 17:29:13,673 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Started BimetriApplication in 1.032 seconds (process running for 1530.234)
+2024-03-22 17:29:13,675 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:Condition evaluation unchanged
+2024-03-22 17:38:52,565 WARN  [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=9m39s313ms453µs500ns).
+2024-03-22 17:45:22,147 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:45:22,148 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-2 - Shutdown initiated...
+2024-03-22 17:45:22,150 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-2 - Shutdown completed.
+2024-03-22 17:45:27,430 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Starting BimetriApplication using Java 17.0.9 with PID 11524 (C:\Users\msi\IdeaProjects\bimetri\target\classes started by msi in C:\Users\msi\IdeaProjects\bimetri)
+2024-03-22 17:45:27,432 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:No active profile set, falling back to 1 default profile: "default"
+2024-03-22 17:45:27,467 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-22 17:45:27,467 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-22 17:45:28,103 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-22 17:45:28,138 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces.
+2024-03-22 17:45:28,581 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port 8080 (http)
+2024-03-22 17:45:28,588 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2024-03-22 17:45:28,588 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-22 17:45:28,618 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2024-03-22 17:45:28,619 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1151 ms
+2024-03-22 17:45:28,802 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-22 17:45:28,839 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-22 17:45:28,859 INFO  [restartedMain] org.hibernate.cache.internal.RegionFactoryInitiator:HHH000026: Second-level cache disabled
+2024-03-22 17:45:28,997 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-22 17:45:29,014 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2024-03-22 17:45:29,113 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7b36ffea
+2024-03-22 17:45:29,114 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2024-03-22 17:45:29,133 WARN  [restartedMain] org.hibernate.orm.deprecation:HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-22 17:45:29,731 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-22 17:45:29,781 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:45:30,122 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-22 17:45:30,657 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2024-03-22 17:45:30,661 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2024-03-22 17:45:30,721 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port 8080 (http) with context path ''
+2024-03-22 17:45:30,734 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Started BimetriApplication in 3.606 seconds (process running for 4.078)
+2024-03-22 17:45:31,320 INFO  [RMI TCP Connection(3)-172.18.240.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-22 17:45:34,759 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:45:34,763 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2024-03-22 17:45:34,767 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2024-03-22 17:45:39,299 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Starting BimetriApplication using Java 17.0.9 with PID 21316 (C:\Users\msi\IdeaProjects\bimetri\target\classes started by msi in C:\Users\msi\IdeaProjects\bimetri)
+2024-03-22 17:45:39,301 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:No active profile set, falling back to 1 default profile: "default"
+2024-03-22 17:45:39,338 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-22 17:45:39,338 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-22 17:45:39,965 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-22 17:45:40,000 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 31 ms. Found 2 JPA repository interfaces.
+2024-03-22 17:45:40,437 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port 8080 (http)
+2024-03-22 17:45:40,445 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2024-03-22 17:45:40,445 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-22 17:45:40,479 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2024-03-22 17:45:40,479 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1140 ms
+2024-03-22 17:45:40,664 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-22 17:45:40,700 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-22 17:45:40,720 INFO  [restartedMain] org.hibernate.cache.internal.RegionFactoryInitiator:HHH000026: Second-level cache disabled
+2024-03-22 17:45:40,863 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-22 17:45:40,880 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2024-03-22 17:45:40,978 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@69d5c06c
+2024-03-22 17:45:40,979 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2024-03-22 17:45:40,998 WARN  [restartedMain] org.hibernate.orm.deprecation:HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-22 17:45:41,608 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-22 17:45:41,658 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:45:42,046 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-22 17:45:42,609 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2024-03-22 17:45:42,613 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2024-03-22 17:45:42,672 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port 8080 (http) with context path ''
+2024-03-22 17:45:42,684 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Started BimetriApplication in 3.679 seconds (process running for 4.14)
+2024-03-22 17:45:43,218 INFO  [RMI TCP Connection(2)-172.18.240.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-22 17:46:39,815 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:46:39,818 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2024-03-22 17:46:39,820 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2024-03-22 17:46:44,276 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Starting BimetriApplication using Java 17.0.9 with PID 21708 (C:\Users\msi\IdeaProjects\bimetri\target\classes started by msi in C:\Users\msi\IdeaProjects\bimetri)
+2024-03-22 17:46:44,278 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:No active profile set, falling back to 1 default profile: "default"
+2024-03-22 17:46:44,316 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-22 17:46:44,316 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-22 17:46:44,931 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-22 17:46:44,967 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces.
+2024-03-22 17:46:45,401 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port 8080 (http)
+2024-03-22 17:46:45,408 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2024-03-22 17:46:45,408 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-22 17:46:45,443 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2024-03-22 17:46:45,443 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1127 ms
+2024-03-22 17:46:45,617 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-22 17:46:45,653 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-22 17:46:45,673 INFO  [restartedMain] org.hibernate.cache.internal.RegionFactoryInitiator:HHH000026: Second-level cache disabled
+2024-03-22 17:46:45,818 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-22 17:46:45,837 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2024-03-22 17:46:45,938 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@109a6a14
+2024-03-22 17:46:45,939 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2024-03-22 17:46:45,959 WARN  [restartedMain] org.hibernate.orm.deprecation:HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-22 17:46:46,554 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-22 17:46:46,603 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:46:46,943 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-22 17:46:47,478 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2024-03-22 17:46:47,483 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2024-03-22 17:46:47,543 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port 8080 (http) with context path ''
+2024-03-22 17:46:47,554 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Started BimetriApplication in 3.57 seconds (process running for 4.03)
+2024-03-22 17:46:47,798 INFO  [RMI TCP Connection(3)-172.18.240.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-22 17:48:06,439 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:48:06,442 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2024-03-22 17:48:06,444 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2024-03-22 17:48:10,056 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Starting BimetriApplication using Java 17.0.9 with PID 10372 (C:\Users\msi\IdeaProjects\bimetri\target\classes started by msi in C:\Users\msi\IdeaProjects\bimetri)
+2024-03-22 17:48:10,057 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:No active profile set, falling back to 1 default profile: "default"
+2024-03-22 17:48:10,098 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-22 17:48:10,098 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-22 17:48:10,716 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-22 17:48:10,751 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces.
+2024-03-22 17:48:11,193 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port 8080 (http)
+2024-03-22 17:48:11,200 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2024-03-22 17:48:11,200 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-22 17:48:11,232 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2024-03-22 17:48:11,233 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1134 ms
+2024-03-22 17:48:11,456 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-22 17:48:11,489 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-22 17:48:11,508 INFO  [restartedMain] org.hibernate.cache.internal.RegionFactoryInitiator:HHH000026: Second-level cache disabled
+2024-03-22 17:48:11,646 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-22 17:48:11,663 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2024-03-22 17:48:11,761 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@165bea13
+2024-03-22 17:48:11,762 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2024-03-22 17:48:11,784 WARN  [restartedMain] org.hibernate.orm.deprecation:HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-22 17:48:12,396 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-22 17:48:12,450 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:48:12,787 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-22 17:48:13,313 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2024-03-22 17:48:13,318 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2024-03-22 17:48:13,380 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port 8080 (http) with context path ''
+2024-03-22 17:48:13,392 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Started BimetriApplication in 3.629 seconds (process running for 4.097)
+2024-03-22 17:48:13,970 INFO  [RMI TCP Connection(1)-172.18.240.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-22 17:49:53,571 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:49:53,574 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2024-03-22 17:49:53,577 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2024-03-22 17:49:57,475 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Starting BimetriApplication using Java 17.0.9 with PID 25820 (C:\Users\msi\IdeaProjects\bimetri\target\classes started by msi in C:\Users\msi\IdeaProjects\bimetri)
+2024-03-22 17:49:57,477 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:No active profile set, falling back to 1 default profile: "default"
+2024-03-22 17:49:57,513 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-22 17:49:57,513 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-22 17:49:58,222 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-22 17:49:58,260 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+2024-03-22 17:49:58,758 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port 8080 (http)
+2024-03-22 17:49:58,766 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2024-03-22 17:49:58,766 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-22 17:49:58,800 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2024-03-22 17:49:58,801 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1288 ms
+2024-03-22 17:49:58,993 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-22 17:49:59,029 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-22 17:49:59,048 INFO  [restartedMain] org.hibernate.cache.internal.RegionFactoryInitiator:HHH000026: Second-level cache disabled
+2024-03-22 17:49:59,189 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-22 17:49:59,208 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2024-03-22 17:49:59,311 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2863e652
+2024-03-22 17:49:59,312 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2024-03-22 17:49:59,339 WARN  [restartedMain] org.hibernate.orm.deprecation:HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-22 17:49:59,942 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-22 17:50:00,007 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:50:00,367 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-22 17:50:00,924 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2024-03-22 17:50:00,928 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2024-03-22 17:50:00,988 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port 8080 (http) with context path ''
+2024-03-22 17:50:01,000 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Started BimetriApplication in 3.814 seconds (process running for 4.302)
+2024-03-22 17:50:01,378 INFO  [RMI TCP Connection(3)-172.18.240.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-22 17:50:17,112 INFO  [http-nio-8080-exec-2] org.springdoc.api.AbstractOpenApiResource:Init duration for springdoc-openapi is: 130 ms
+2024-03-22 17:50:31,923 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:50:31,923 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:51:08,818 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+2024-03-22 17:51:08,834 INFO  [Thread-5] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:51:08,837 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2024-03-22 17:51:08,839 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2024-03-22 17:51:08,902 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Starting BimetriApplication using Java 17.0.9 with PID 25820 (C:\Users\msi\IdeaProjects\bimetri\target\classes started by msi in C:\Users\msi\IdeaProjects\bimetri)
+2024-03-22 17:51:08,902 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:No active profile set, falling back to 1 default profile: "default"
+2024-03-22 17:51:09,103 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-22 17:51:09,111 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 7 ms. Found 2 JPA repository interfaces.
+2024-03-22 17:51:09,201 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port 8080 (http)
+2024-03-22 17:51:09,202 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2024-03-22 17:51:09,202 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-22 17:51:09,213 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2024-03-22 17:51:09,213 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 309 ms
+2024-03-22 17:51:09,282 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-22 17:51:09,283 INFO  [restartedMain] org.hibernate.cache.internal.RegionFactoryInitiator:HHH000026: Second-level cache disabled
+2024-03-22 17:51:09,285 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-22 17:51:09,286 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-2 - Starting...
+2024-03-22 17:51:09,304 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@31218078
+2024-03-22 17:51:09,305 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-2 - Start completed.
+2024-03-22 17:51:09,310 WARN  [restartedMain] org.hibernate.orm.deprecation:HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-22 17:51:09,353 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-22 17:51:09,386 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:51:09,536 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-22 17:51:09,819 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2024-03-22 17:51:09,822 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2024-03-22 17:51:09,843 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port 8080 (http) with context path ''
+2024-03-22 17:51:09,850 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Started BimetriApplication in 0.967 seconds (process running for 73.153)
+2024-03-22 17:51:09,852 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:Condition evaluation unchanged
+2024-03-22 17:51:11,249 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2024-03-22 17:51:11,259 INFO  [Thread-7] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:51:11,259 INFO  [Thread-7] com.zaxxer.hikari.HikariDataSource:HikariPool-2 - Shutdown initiated...
+2024-03-22 17:51:11,261 INFO  [Thread-7] com.zaxxer.hikari.HikariDataSource:HikariPool-2 - Shutdown completed.
+2024-03-22 17:51:11,308 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Starting BimetriApplication using Java 17.0.9 with PID 25820 (C:\Users\msi\IdeaProjects\bimetri\target\classes started by msi in C:\Users\msi\IdeaProjects\bimetri)
+2024-03-22 17:51:11,308 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:No active profile set, falling back to 1 default profile: "default"
+2024-03-22 17:51:11,493 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-22 17:51:11,501 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 7 ms. Found 2 JPA repository interfaces.
+2024-03-22 17:51:11,590 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port 8080 (http)
+2024-03-22 17:51:11,590 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2024-03-22 17:51:11,590 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-22 17:51:11,600 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2024-03-22 17:51:11,600 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 291 ms
+2024-03-22 17:51:11,663 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-22 17:51:11,664 INFO  [restartedMain] org.hibernate.cache.internal.RegionFactoryInitiator:HHH000026: Second-level cache disabled
+2024-03-22 17:51:11,667 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-22 17:51:11,667 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-3 - Starting...
+2024-03-22 17:51:11,685 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@1cbd0386
+2024-03-22 17:51:11,686 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-3 - Start completed.
+2024-03-22 17:51:11,688 WARN  [restartedMain] org.hibernate.orm.deprecation:HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-22 17:51:11,726 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-22 17:51:11,750 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:51:11,874 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-22 17:51:12,130 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2024-03-22 17:51:12,133 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2024-03-22 17:51:12,156 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port 8080 (http) with context path ''
+2024-03-22 17:51:12,163 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Started BimetriApplication in 0.872 seconds (process running for 75.465)
+2024-03-22 17:51:12,165 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:Condition evaluation unchanged
+2024-03-22 17:53:44,311 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:53:44,312 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-3 - Shutdown initiated...
+2024-03-22 17:53:44,313 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-3 - Shutdown completed.
+2024-03-22 17:53:47,832 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Starting BimetriApplication using Java 17.0.9 with PID 18732 (C:\Users\msi\IdeaProjects\bimetri\target\classes started by msi in C:\Users\msi\IdeaProjects\bimetri)
+2024-03-22 17:53:47,834 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:No active profile set, falling back to 1 default profile: "default"
+2024-03-22 17:53:47,874 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-22 17:53:47,874 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-22 17:53:48,580 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-22 17:53:48,619 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
+2024-03-22 17:53:49,115 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port 8080 (http)
+2024-03-22 17:53:49,122 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2024-03-22 17:53:49,123 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-22 17:53:49,153 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2024-03-22 17:53:49,154 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1280 ms
+2024-03-22 17:53:49,341 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-22 17:53:49,381 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-22 17:53:49,401 INFO  [restartedMain] org.hibernate.cache.internal.RegionFactoryInitiator:HHH000026: Second-level cache disabled
+2024-03-22 17:53:49,544 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-22 17:53:49,562 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2024-03-22 17:53:49,669 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1fb019eb
+2024-03-22 17:53:49,671 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2024-03-22 17:53:49,693 WARN  [restartedMain] org.hibernate.orm.deprecation:HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-22 17:53:50,401 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-22 17:53:50,452 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-22 17:53:50,799 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-22 17:53:51,350 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2024-03-22 17:53:51,354 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2024-03-22 17:53:51,416 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port 8080 (http) with context path ''
+2024-03-22 17:53:51,429 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Started BimetriApplication in 3.918 seconds (process running for 4.396)
+2024-03-22 17:53:51,821 INFO  [RMI TCP Connection(2)-172.18.240.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-22 17:53:58,581 INFO  [http-nio-8080-exec-7] org.springdoc.api.AbstractOpenApiResource:Init duration for springdoc-openapi is: 138 ms
+2024-03-22 17:55:59,830 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:55:59,830 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:55:59,949 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:55:59,949 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:56:08,438 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:56:08,439 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:56:08,446 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:56:08,447 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:56:10,885 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:56:10,886 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:56:10,893 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:56:10,894 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:56:11,628 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:56:11,629 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:56:11,636 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:56:11,636 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:56:12,319 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:56:12,319 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:56:12,328 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:56:12,328 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:56:12,841 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:56:12,841 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:56:12,847 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:56:12,848 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:56:13,400 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:56:13,400 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:56:13,408 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:56:13,408 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:56:14,021 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:56:14,021 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:56:14,028 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:56:14,028 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:56:22,533 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:56:22,534 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:56:22,542 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:56:22,542 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:57:40,840 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:57:40,840 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:57:40,849 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:57:40,850 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:57:43,115 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:57:43,115 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:57:43,123 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:57:43,123 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:57:49,846 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:57:49,846 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:57:49,854 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:57:49,854 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:57:51,520 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:57:51,520 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:57:51,528 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:57:51,528 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:57:52,390 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:57:52,390 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:57:52,399 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:57:52,399 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:57:52,912 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:57:52,912 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:57:52,928 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:57:52,929 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:57:53,124 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:57:53,124 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:57:53,131 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:57:53,131 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:57:53,449 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:57:53,449 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:57:53,456 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:57:53,457 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:57:53,966 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:57:53,966 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:57:53,974 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:57:53,974 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:58:26,853 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:58:26,853 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:58:26,870 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:58:26,870 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:58:36,279 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:58:36,280 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:58:36,287 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:58:36,287 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:58:46,002 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:58:46,003 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:58:46,010 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:58:46,010 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:59:27,818 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:59:27,818 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 17:59:37,828 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 17:59:37,828 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:00:59,817 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:00:59,817 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:00:59,833 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:00:59,833 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:01:01,809 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:01:01,809 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:01:03,837 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:01:03,837 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:01:08,816 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:01:08,816 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:01:19,247 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:01:19,248 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:01:19,255 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:01:19,255 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:02:32,885 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:02:32,886 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:02:32,894 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:02:32,894 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:05:17,823 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:05:17,823 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:05:17,834 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:05:17,834 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:05:51,113 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:05:51,113 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:05:51,122 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:05:51,122 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:05:57,349 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:05:57,349 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:05:57,356 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:05:57,356 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:07:48,812 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:07:48,812 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:07:48,829 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:07:48,829 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:07:52,813 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:07:52,813 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:07:56,321 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:07:56,321 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:07:56,327 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:07:56,327 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:08:00,488 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:08:00,488 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:08:00,494 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:08:00,494 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:08:01,545 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:08:01,545 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:08:01,554 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:08:01,554 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:08:02,237 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:08:02,238 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:08:02,244 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:08:02,245 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:08:02,852 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:08:02,852 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:08:02,859 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:08:02,859 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:08:32,813 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:08:32,813 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:08:35,813 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:08:35,813 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:08:37,828 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:08:37,828 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:08:49,818 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:08:49,818 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:08:56,813 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:08:56,813 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:09:06,826 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:09:06,826 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:09:20,812 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:09:20,812 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:09:24,812 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:09:24,812 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:09:27,829 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:09:27,829 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:09:32,818 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:09:32,818 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:09:36,810 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:09:36,810 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:09:43,811 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:09:43,811 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:09:43,818 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:09:43,818 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:14:27,121 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:14:27,121 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:14:27,129 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:14:27,129 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:17:14,989 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:17:14,989 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:17:14,998 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:17:14,998 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:18:04,830 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:18:04,830 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:18:04,837 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:18:04,837 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:24:01,081 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:24:01,083 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:24:01,354 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:24:01,354 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:24:01,361 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-22 18:24:01,361 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-22 18:24:31,935 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:24:31,935 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:24:31,945 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:24:31,945 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:28:19,366 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:28:19,366 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:28:19,376 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:28:19,376 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:28:27,279 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:28:27,279 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:28:27,288 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:28:27,288 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:28:40,516 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:28:40,517 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:28:40,526 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:28:40,526 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:28:41,962 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:28:41,962 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-22 18:28:41,969 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-22 18:28:41,969 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.CourseService:Fetching all course from the database.
