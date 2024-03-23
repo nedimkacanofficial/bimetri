@@ -27,6 +27,6 @@ public class Student implements Serializable {
     @Column(length = 50, nullable = false)
     private String schoolNumber;
 
-    @ManyToMany(mappedBy = "students", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @ManyToMany(mappedBy = "students", fetch = FetchType.LAZY)
     private List<Course> courses;
 }
