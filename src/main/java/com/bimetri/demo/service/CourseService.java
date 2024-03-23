@@ -158,12 +158,13 @@ public class CourseService {
      * the student and course from the database using their respective IDs. If either the student or the course does
      * not exist, it throws a ResourceNotFoundException. It then checks if the maximum number of courses or students
      * allowed per course is exceeded. If not, it adds the student to the course's list of students and vice versa,
-     * and saves the changes to the database.
+     * and saves the changes to the database. If the student is already enrolled in the course, it throws a ConflictException.
      *
      * @param studentId The ID of the student to be enrolled.
      * @param courseId  The ID of the course to which the student will be enrolled.
      * @throws ResourceNotFoundException If the student or the course does not exist with the provided ID.
-     * @throws ConflictException         If the maximum number of courses or students allowed per course is exceeded.
+     * @throws ConflictException         If the maximum number of courses or students allowed per course is exceeded,
+     *                                   or if the student is already enrolled in the course.
      */
     public void enrollStudentToCourse(Long studentId, Long courseId) {
         log.info("Fetching course with Student ID: {}, Course ID: {}", studentId, courseId);
@@ -171,17 +172,21 @@ public class CourseService {
         Student student = studentRepository.findById(studentId).orElseThrow(() -> new ResourceNotFoundException(String.format(ErrorMessage.RESOURCE_NOT_FOUND_MESSAGE, studentId)));
         Course course = courseRepository.findById(courseId).orElseThrow(() -> new ResourceNotFoundException(String.format(ErrorMessage.RESOURCE_NOT_FOUND_MESSAGE, courseId)));
 
-        if (student.getCourses().size() <= 5) {
-            if (course.getStudents().size() <= 50) {
-                course.getStudents().add(student);
-                studentRepository.save(student);
-                student.getCourses().add(course);
-                courseRepository.save(course);
+        if (!student.getCourses().contains(course)) {
+            if (student.getCourses().size() < 5) {
+                if (course.getStudents().size() < 50) {
+                    course.getStudents().add(student);
+                    studentRepository.save(student);
+                    student.getCourses().add(course);
+                    courseRepository.save(course);
+                } else {
+                    throw new ConflictException(String.format(ErrorMessage.RESOURCE_MAX_COUNT, STUDENT));
+                }
             } else {
-                throw new ConflictException(String.format(ErrorMessage.RESOURCE_MAX_COUNT, STUDENT));
+                throw new ConflictException(String.format(ErrorMessage.RESOURCE_MAX_COUNT, COURSE));
             }
         } else {
-            throw new ConflictException(String.format(ErrorMessage.RESOURCE_MAX_COUNT, COURSE));
+            throw new ConflictException(ErrorMessage.DUPLICATE_COURSE);
         }
     }
 }
