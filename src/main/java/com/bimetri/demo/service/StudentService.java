@@ -3,6 +3,7 @@ package com.bimetri.demo.service;
 import com.bimetri.demo.domain.Course;
 import com.bimetri.demo.domain.Student;
 import com.bimetri.demo.dto.request.StudentRequestDto;
+import com.bimetri.demo.dto.response.StudentAndCoursesResponseDto;
 import com.bimetri.demo.dto.response.StudentResponseDto;
 import com.bimetri.demo.exception.ResourceNotFoundException;
 import com.bimetri.demo.exception.message.ErrorMessage;
@@ -13,6 +14,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -42,22 +44,43 @@ public class StudentService {
     }
 
     /**
-     * Retrieves a student by their ID.
+     * Retrieves a list of all students along with their associated courses.
      * <p>
-     * This method fetches a student from the database based on the provided ID.
-     * If a student with the specified ID is found, it is mapped to a StudentResponseDto object
-     * and returned. Otherwise, a ResourceNotFoundException is thrown.
+     * This method queries the database to fetch all students and their respective courses. It constructs
+     * a list of {@link StudentAndCoursesResponseDto} objects, where each object contains information
+     * about a student, including their ID, name, surname, and school number, along with a comma-separated
+     * string of course names the student is enrolled in.
      *
-     * @param id The ID of the student to retrieve.
-     * @return A StudentResponseDto containing information about the retrieved student.
-     * @throws ResourceNotFoundException if no student with the given ID is found in the database.
+     * @return A list of {@link StudentAndCoursesResponseDto} objects representing each student along with
+     * their associated courses.
      */
-    public StudentResponseDto getById(Long id) {
-        log.info("Fetching student with ID: {}", id);
+    public List<StudentAndCoursesResponseDto> getStudentAndCoursesList() {
+        log.info("Fetching all students and all student courses from the database.");
 
-        Student student = this.studentRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException(String.format(ErrorMessage.RESOURCE_NOT_FOUND_MESSAGE, id)));
+        List<Student> students = this.studentRepository.findAll();
 
-        return StudentMapper.toDTO(student);
+        List<StudentAndCoursesResponseDto> studentAndCoursesList = new ArrayList<>();
+
+        for (Student student : students) {
+            StudentAndCoursesResponseDto studentAndCoursesResponseDto = new StudentAndCoursesResponseDto();
+            studentAndCoursesResponseDto.setId(student.getId());
+            studentAndCoursesResponseDto.setName(student.getName());
+            studentAndCoursesResponseDto.setSurname(student.getSurname());
+            studentAndCoursesResponseDto.setSchoolNumber(Long.valueOf(student.getSchoolNumber()));
+
+            List<String> courseNames = new ArrayList<>();
+            for (Course course : student.getCourses()) {
+                courseNames.add(course.getName());
+            }
+
+            String coursesAsString = String.join(", ", courseNames);
+
+            studentAndCoursesResponseDto.setCourses(coursesAsString);
+
+            studentAndCoursesList.add(studentAndCoursesResponseDto);
+        }
+
+        return studentAndCoursesList;
     }
 
     /**

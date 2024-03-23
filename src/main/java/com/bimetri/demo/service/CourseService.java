@@ -44,25 +44,6 @@ public class CourseService {
     }
 
     /**
-     * Retrieves a course by its unique identifier.
-     * <p>
-     * This method retrieves a course from the database based on the provided ID. If a course with the given ID
-     * exists in the database, it is returned as a CourseResponseDto object. If no course is found with the
-     * specified ID, a ResourceNotFoundException is thrown.
-     *
-     * @param id The unique identifier of the course to retrieve.
-     * @return A CourseResponseDto object representing the course with the specified ID.
-     * @throws ResourceNotFoundException if no course is found with the specified ID.
-     */
-    public CourseResponseDto getById(Long id) throws ResourceNotFoundException {
-        log.info("Fetching course with ID: {}", id);
-
-        Course course = this.courseRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException(String.format(ErrorMessage.RESOURCE_NOT_FOUND_MESSAGE, id)));
-
-        return CourseMapper.toDTO(course);
-    }
-
-    /**
      * Retrieves the courses associated with a student.
      * <p>
      * This method retrieves the courses associated with a student identified by the provided student ID.

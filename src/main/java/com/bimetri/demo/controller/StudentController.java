@@ -3,6 +3,7 @@ package com.bimetri.demo.controller;
 import com.bimetri.demo.dto.defaultResponse.DefaultResponseDTO;
 import com.bimetri.demo.dto.defaultResponse.ResponseMessage;
 import com.bimetri.demo.dto.request.StudentRequestDto;
+import com.bimetri.demo.dto.response.StudentAndCoursesResponseDto;
 import com.bimetri.demo.dto.response.StudentResponseDto;
 import com.bimetri.demo.service.StudentService;
 import jakarta.validation.Valid;
@@ -40,22 +41,24 @@ public class StudentController {
     }
 
     /**
-     * Retrieves a student by their ID.
+     * Retrieves a list of all students along with their associated courses.
      * <p>
-     * This endpoint retrieves a student from the system based on the provided ID.
-     * It returns a StudentResponseDto object containing information about the student.
+     * This method fetches all students from the database along with the courses
+     * each student is enrolled in. It constructs a list of {@link StudentAndCoursesResponseDto}
+     * objects, where each object contains information about a student along with a comma-separated
+     * string of course names the student is enrolled in.
      *
-     * @param id The ID of the student to retrieve.
-     * @return ResponseEntity containing a StudentResponseDto object representing the student with the provided ID,
-     * along with an HTTP status code indicating the success of the operation.
+     * @return ResponseEntity containing a list of {@link StudentAndCoursesResponseDto} objects representing
+     * each student along with their associated courses. Returns HTTP status code 200 (OK) if the
+     * operation is successful.
      */
-    @GetMapping(path = "/{id}")
-    public ResponseEntity<StudentResponseDto> getById(@PathVariable long id) {
-        log.info("Fetching student with ID: {}", id);
+    @GetMapping(path = "/student-and-courses")
+    public ResponseEntity<List<StudentAndCoursesResponseDto>> getStudentAndCoursesList() {
+        log.info("Fetching all student and student courses.");
 
-        StudentResponseDto studentResponseDTO = this.studentService.getById(id);
+        List<StudentAndCoursesResponseDto> studentAndCoursesResponseDtos = this.studentService.getStudentAndCoursesList();
 
-        return new ResponseEntity<>(studentResponseDTO, HttpStatus.OK);
+        return new ResponseEntity<>(studentAndCoursesResponseDtos, HttpStatus.OK);
     }
 
     /**
@@ -135,7 +138,7 @@ public class StudentController {
      * @return ResponseEntity containing a list of StudentResponseDto objects representing the students without courses,
      * along with an HTTP status code indicating the success of the operation.
      */
-    @GetMapping("/students-without-courses")
+    @GetMapping(path = "/students-without-courses")
     public ResponseEntity<List<StudentResponseDto>> findStudentsByCoursesIsNull() {
         log.info("Student without courses");
 
@@ -155,7 +158,7 @@ public class StudentController {
      * @return ResponseEntity containing a list of StudentResponseDto objects representing the students enrolled in the course,
      * along with an HTTP status code indicating the success of the operation.
      */
-    @GetMapping("/course-all-students/{courseId}")
+    @GetMapping(path = "/course-all-students/{courseId}")
     public ResponseEntity<List<StudentResponseDto>> findCoursesByCoursesId(@PathVariable long courseId) {
         log.info("Course all students Course ID: {}", courseId);
 

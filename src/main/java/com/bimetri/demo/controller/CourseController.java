@@ -39,24 +39,6 @@ public class CourseController {
     }
 
     /**
-     * Retrieves a course by its ID.
-     * <p>
-     * This endpoint retrieves a course from the system based on the provided ID.
-     *
-     * @param id The ID of the course to retrieve.
-     * @return ResponseEntity containing the CourseResponseDto representing the course,
-     * along with an HTTP status code indicating the success of the operation.
-     */
-    @GetMapping(path = "/{id}")
-    public ResponseEntity<CourseResponseDto> getById(@PathVariable long id) {
-        log.info("Fetching course with ID: {}", id);
-
-        CourseResponseDto contactMessageResponseDTO = this.courseService.getById(id);
-
-        return new ResponseEntity<>(contactMessageResponseDTO, HttpStatus.OK);
-    }
-
-    /**
      * Creates a new course.
      * <p>
      * This endpoint creates a new course in the system based on the provided CourseRequestDto.
