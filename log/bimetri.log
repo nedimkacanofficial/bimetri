@@ -2623,3 +2623,410 @@ Consider defining a bean of type 'com.bimetri.demo.service.CourseService' in you
 2024-03-23 21:57:40,249 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-03-23 21:57:40,270 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
 2024-03-23 21:57:40,272 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2024-03-23 22:16:05,590 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Starting BimetriApplication using Java 17.0.9 with PID 29712 (C:\Users\msi\IdeaProjects\bimetri\target\classes started by msi in C:\Users\msi\IdeaProjects\bimetri)
+2024-03-23 22:16:05,591 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:No active profile set, falling back to 1 default profile: "default"
+2024-03-23 22:16:05,631 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-23 22:16:05,631 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-23 22:16:06,352 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-23 22:16:06,389 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+2024-03-23 22:16:06,954 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port 8080 (http)
+2024-03-23 22:16:06,963 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2024-03-23 22:16:06,964 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-23 22:16:07,002 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2024-03-23 22:16:07,003 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1371 ms
+2024-03-23 22:16:07,213 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-23 22:16:07,270 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-23 22:16:07,300 INFO  [restartedMain] org.hibernate.cache.internal.RegionFactoryInitiator:HHH000026: Second-level cache disabled
+2024-03-23 22:16:07,473 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-23 22:16:07,499 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2024-03-23 22:16:07,601 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@70b82087
+2024-03-23 22:16:07,603 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2024-03-23 22:16:07,645 WARN  [restartedMain] org.hibernate.orm.deprecation:HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-23 22:16:08,375 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-23 22:16:08,462 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-23 22:16:08,871 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-23 22:16:09,468 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2024-03-23 22:16:09,474 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 15 endpoint(s) beneath base path '/actuator'
+2024-03-23 22:16:09,541 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port 8080 (http) with context path ''
+2024-03-23 22:16:09,553 INFO  [restartedMain] com.bimetri.demo.BimetriApplication:Started BimetriApplication in 4.296 seconds (process running for 4.793)
+2024-03-23 22:16:09,967 INFO  [RMI TCP Connection(2)-172.18.240.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-23 22:16:19,305 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:16:19,305 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:16:19,430 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:16:19,430 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:16:21,653 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.StudentController:Student without courses
+2024-03-23 22:16:21,653 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.StudentService:Fetching courses student not found!
+2024-03-23 22:16:25,669 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.StudentController:Student without courses
+2024-03-23 22:16:25,669 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.StudentService:Fetching courses student not found!
+2024-03-23 22:16:31,838 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.StudentController:Student without courses
+2024-03-23 22:16:31,838 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.StudentService:Fetching courses student not found!
+2024-03-23 22:16:53,472 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.StudentController:Creating a new student: Falan
+2024-03-23 22:16:53,472 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.StudentService:Creating a new student.
+2024-03-23 22:16:53,539 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:16:53,539 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:16:57,467 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.StudentController:Student without courses
+2024-03-23 22:16:57,467 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.StudentService:Fetching courses student not found!
+2024-03-23 22:17:18,418 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.StudentController:Creating a new student: Falan
+2024-03-23 22:17:18,419 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.StudentService:Creating a new student.
+2024-03-23 22:17:18,432 WARN  [http-nio-8080-exec-10] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [com.bimetri.demo.exception.ConflictException: There is already a record with the school number 456.]
+2024-03-23 22:17:21,645 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.StudentController:Creating a new student: Falan
+2024-03-23 22:17:21,645 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.StudentService:Creating a new student.
+2024-03-23 22:17:21,650 WARN  [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [com.bimetri.demo.exception.ConflictException: There is already a record with the school number 456.]
+2024-03-23 22:17:24,633 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.StudentController:Creating a new student: Falan
+2024-03-23 22:17:24,633 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.StudentService:Creating a new student.
+2024-03-23 22:17:24,637 WARN  [http-nio-8080-exec-3] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [com.bimetri.demo.exception.ConflictException: There is already a record with the school number 456.]
+2024-03-23 22:17:29,431 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.StudentController:Student without courses
+2024-03-23 22:17:29,432 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.StudentService:Fetching courses student not found!
+2024-03-23 22:17:31,627 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:17:31,627 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:17:31,656 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:17:31,656 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:17:34,747 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:17:34,747 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:17:34,762 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:17:34,762 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:17:37,220 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:17:37,221 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:17:37,230 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:17:37,230 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:17:40,093 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:17:40,093 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:17:40,102 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:17:40,102 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:17:41,654 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.CourseController:Deleting course with ID: 37
+2024-03-23 22:17:41,654 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.CourseService:Deleting course with ID: 37
+2024-03-23 22:17:41,696 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:17:41,696 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:17:46,611 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:17:46,611 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:17:46,620 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:17:46,620 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:17:48,858 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:17:48,858 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:17:48,867 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:17:48,868 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:17:50,641 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:17:50,641 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:17:50,651 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:17:50,651 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:17:53,712 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.StudentController:Deleting student with ID: 11
+2024-03-23 22:17:53,712 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.StudentService:Deleting student with ID: 11
+2024-03-23 22:17:53,733 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:17:53,733 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:17:54,448 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Deleting student with ID: 10
+2024-03-23 22:17:54,448 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Deleting student with ID: 10
+2024-03-23 22:17:54,468 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:17:54,468 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:17:57,285 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.StudentController:Student without courses
+2024-03-23 22:17:57,285 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.StudentService:Fetching courses student not found!
+2024-03-23 22:18:00,858 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:18:00,858 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:18:00,867 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:18:00,867 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:18:01,823 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.CourseController:Courses without students.
+2024-03-23 22:18:01,823 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.CourseService:Fetching course student not found!
+2024-03-23 22:18:03,245 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:18:03,246 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:18:03,256 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:18:03,256 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:18:04,541 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:18:04,541 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:18:04,550 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:18:04,550 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:18:06,762 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:18:06,763 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:18:06,772 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:18:06,772 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:18:08,814 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:18:08,814 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:18:08,825 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:18:08,825 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:18:10,634 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:18:10,634 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:18:10,634 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:18:10,634 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:18:10,641 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:18:10,641 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:18:10,642 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:18:10,642 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:22:06,619 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:22:06,619 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:22:06,619 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:22:06,619 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:22:06,629 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:22:06,629 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:22:06,629 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:22:06,629 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:22:13,730 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:22:13,730 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:22:13,730 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:22:13,730 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:22:13,737 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:22:13,737 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:22:13,738 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:22:13,738 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:22:15,430 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:22:15,430 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:22:15,438 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:22:15,438 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:22:17,796 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:22:17,796 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:22:17,804 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:22:17,804 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:22:20,637 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:22:20,638 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:22:20,649 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:22:20,649 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:22:23,981 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:22:23,981 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:22:23,990 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:22:23,990 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:22:24,403 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:22:24,403 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:22:24,411 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:22:24,411 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:22:30,236 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:22:30,236 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:22:30,243 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:22:30,244 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:22:31,258 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:22:31,258 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:22:31,273 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:22:31,273 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:22:33,735 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:22:33,735 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:22:33,744 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:22:33,744 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:22:38,409 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.CourseController:Updating course with ID: 34
+2024-03-23 22:22:38,409 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.CourseService:Updating course with ID: 34
+2024-03-23 22:22:38,432 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:22:38,432 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:22:41,631 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:22:41,632 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:22:41,640 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:22:41,640 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:22:42,283 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:22:42,283 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:22:42,293 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:22:42,293 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:22:48,551 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:22:48,551 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:22:48,563 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:22:48,563 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:22:52,179 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.CourseController:Courses without students.
+2024-03-23 22:22:52,179 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.CourseService:Fetching course student not found!
+2024-03-23 22:22:53,513 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:22:53,513 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:22:53,522 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:22:53,522 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:22:55,139 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:22:55,139 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:22:55,149 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:22:55,149 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:22:56,973 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:22:56,973 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:22:56,982 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:22:56,982 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:22:57,572 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:22:57,572 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:22:57,581 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:22:57,581 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:22:58,621 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:22:58,621 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:22:58,629 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:22:58,629 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:22:59,093 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:22:59,093 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:22:59,106 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:22:59,106 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:23:00,736 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:23:00,736 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:23:00,744 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:23:00,744 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:23:01,186 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:23:01,186 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:23:01,194 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:23:01,194 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:23:01,670 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:23:01,670 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:23:01,678 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:23:01,678 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:23:02,811 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:23:02,811 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:23:02,822 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:23:02,822 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:23:03,966 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:23:03,966 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:23:03,973 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:23:03,973 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:23:07,402 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.CourseController:Courses without students.
+2024-03-23 22:23:07,402 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.CourseService:Fetching course student not found!
+2024-03-23 22:23:09,192 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:23:09,193 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:23:09,200 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:23:09,200 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:23:09,749 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Student without courses
+2024-03-23 22:23:09,750 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching courses student not found!
+2024-03-23 22:23:10,977 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:23:10,978 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:23:10,987 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:23:10,987 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:23:14,404 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:23:14,405 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:23:14,411 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:23:14,411 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:23:16,142 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:23:16,142 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:23:16,152 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:23:16,152 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:23:19,019 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:23:19,019 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:23:19,019 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:23:19,019 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:23:19,027 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:23:19,027 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:23:19,027 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:23:19,027 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:23:23,818 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.CourseController:Enrool Student ID: 7 and Course ID: 35
+2024-03-23 22:23:23,818 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.CourseService:Fetching course with Student ID: 7, Course ID: 35
+2024-03-23 22:23:23,827 WARN  [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [com.bimetri.demo.exception.ConflictException: Student is already enrolled in this course.]
+2024-03-23 22:23:26,515 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:23:26,515 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:23:26,522 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:23:26,522 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:23:33,508 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.CourseController:Creating a new course: Matematik
+2024-03-23 22:23:33,508 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.CourseService:Creating a new course.
+2024-03-23 22:23:33,526 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:23:33,526 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:23:35,180 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:23:35,180 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:23:35,189 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:23:35,189 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:23:37,064 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:23:37,064 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:23:37,073 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:23:37,073 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:23:37,722 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.CourseController:Courses without students.
+2024-03-23 22:23:37,722 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.CourseService:Fetching course student not found!
+2024-03-23 22:23:40,198 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:23:40,198 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:23:40,205 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:23:40,205 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:23:41,019 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.StudentController:Student without courses
+2024-03-23 22:23:41,019 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.StudentService:Fetching courses student not found!
+2024-03-23 22:23:41,787 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:23:41,787 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:23:41,797 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:23:41,797 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:23:42,613 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:23:42,613 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:23:42,613 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:23:42,613 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:23:42,619 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:23:42,619 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:23:42,619 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:23:42,619 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:23:49,234 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:23:49,234 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:23:49,245 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:23:49,245 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:23:49,908 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.CourseController:Courses without students.
+2024-03-23 22:23:49,908 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.CourseService:Fetching course student not found!
+2024-03-23 22:23:54,487 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.CourseController:Creating a new course: Din
+2024-03-23 22:23:54,487 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.CourseService:Creating a new course.
+2024-03-23 22:23:54,512 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:23:54,512 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:23:56,344 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.CourseController:Courses without students.
+2024-03-23 22:23:56,344 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.CourseService:Fetching course student not found!
+2024-03-23 22:24:00,176 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.CourseController:Creating a new course: Kimya
+2024-03-23 22:24:00,176 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.CourseService:Creating a new course.
+2024-03-23 22:24:00,201 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:24:00,201 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:24:09,064 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:24:09,065 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:24:09,072 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:24:09,072 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:24:12,507 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:24:12,507 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:24:12,515 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:24:12,515 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:24:14,850 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:24:14,850 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:24:14,860 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:24:14,860 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:24:17,397 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:24:17,397 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:24:17,407 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:24:17,407 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:24:17,919 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:24:17,919 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:24:17,919 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:24:17,920 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:24:17,925 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:24:17,925 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:24:17,925 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:24:17,925 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:24:24,229 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.CourseController:Enrool Student ID: 6 and Course ID: 39
+2024-03-23 22:24:24,229 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.CourseService:Fetching course with Student ID: 6, Course ID: 39
+2024-03-23 22:24:24,252 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:24:24,252 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:24:26,308 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:24:26,308 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:24:26,308 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:24:26,308 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:24:26,317 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:24:26,317 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:24:26,317 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:24:26,317 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:24:30,825 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.CourseController:Enrool Student ID: 6 and Course ID: 40
+2024-03-23 22:24:30,825 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.CourseService:Fetching course with Student ID: 6, Course ID: 40
+2024-03-23 22:24:30,850 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.StudentController:Fetching all student and student courses.
+2024-03-23 22:24:30,850 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.StudentService:Fetching all students and all student courses from the database.
+2024-03-23 22:24:32,579 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:24:32,578 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:24:32,579 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:24:32,579 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:24:32,585 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:24:32,585 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:24:32,586 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:24:32,586 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:24:39,462 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.CourseController:Enrool Student ID: 6 and Course ID: 38
+2024-03-23 22:24:39,463 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.CourseService:Fetching course with Student ID: 6, Course ID: 38
+2024-03-23 22:24:39,472 WARN  [http-nio-8080-exec-8] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [com.bimetri.demo.exception.ConflictException: You have reached the maximum number of course registrations!]
+2024-03-23 22:24:42,313 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.CourseController:Enrool Student ID: 6 and Course ID: 38
+2024-03-23 22:24:42,313 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.CourseService:Fetching course with Student ID: 6, Course ID: 38
+2024-03-23 22:24:42,320 WARN  [http-nio-8080-exec-1] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [com.bimetri.demo.exception.ConflictException: You have reached the maximum number of course registrations!]
+2024-03-23 22:24:46,233 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:24:46,233 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:24:46,233 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:24:46,233 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:24:46,239 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:24:46,239 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:24:46,239 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:24:46,239 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:24:54,216 INFO  [http-nio-8080-exec-5] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:24:54,216 INFO  [http-nio-8080-exec-6] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:24:54,216 INFO  [http-nio-8080-exec-5] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:24:54,216 INFO  [http-nio-8080-exec-6] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:24:54,223 INFO  [http-nio-8080-exec-9] com.bimetri.demo.controller.CourseController:Fetching all course.
+2024-03-23 22:24:54,223 INFO  [http-nio-8080-exec-4] com.bimetri.demo.controller.StudentController:Fetching all student.
+2024-03-23 22:24:54,223 INFO  [http-nio-8080-exec-9] com.bimetri.demo.service.CourseService:Fetching all course from the database.
+2024-03-23 22:24:54,223 INFO  [http-nio-8080-exec-4] com.bimetri.demo.service.StudentService:Fetching all student from the database.
+2024-03-23 22:25:00,850 INFO  [http-nio-8080-exec-8] com.bimetri.demo.controller.CourseController:Enrool Student ID: 6 and Course ID: 38
+2024-03-23 22:25:00,850 INFO  [http-nio-8080-exec-8] com.bimetri.demo.service.CourseService:Fetching course with Student ID: 6, Course ID: 38
+2024-03-23 22:25:00,858 WARN  [http-nio-8080-exec-8] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [com.bimetri.demo.exception.ConflictException: You have reached the maximum number of course registrations!]
+2024-03-23 22:25:04,097 INFO  [http-nio-8080-exec-1] com.bimetri.demo.controller.CourseController:Enrool Student ID: 6 and Course ID: 38
+2024-03-23 22:25:04,097 INFO  [http-nio-8080-exec-1] com.bimetri.demo.service.CourseService:Fetching course with Student ID: 6, Course ID: 38
+2024-03-23 22:25:04,104 WARN  [http-nio-8080-exec-1] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [com.bimetri.demo.exception.ConflictException: You have reached the maximum number of course registrations!]
+2024-03-23 22:25:06,271 INFO  [http-nio-8080-exec-10] com.bimetri.demo.controller.CourseController:Enrool Student ID: 6 and Course ID: 38
+2024-03-23 22:25:06,271 INFO  [http-nio-8080-exec-10] com.bimetri.demo.service.CourseService:Fetching course with Student ID: 6, Course ID: 38
+2024-03-23 22:25:06,279 WARN  [http-nio-8080-exec-10] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [com.bimetri.demo.exception.ConflictException: You have reached the maximum number of course registrations!]
+2024-03-23 22:25:08,446 INFO  [http-nio-8080-exec-2] com.bimetri.demo.controller.CourseController:Enrool Student ID: 6 and Course ID: 38
+2024-03-23 22:25:08,447 INFO  [http-nio-8080-exec-2] com.bimetri.demo.service.CourseService:Fetching course with Student ID: 6, Course ID: 38
+2024-03-23 22:25:08,454 WARN  [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [com.bimetri.demo.exception.ConflictException: You have reached the maximum number of course registrations!]
+2024-03-23 22:25:09,021 INFO  [http-nio-8080-exec-7] com.bimetri.demo.controller.CourseController:Enrool Student ID: 6 and Course ID: 38
+2024-03-23 22:25:09,021 INFO  [http-nio-8080-exec-7] com.bimetri.demo.service.CourseService:Fetching course with Student ID: 6, Course ID: 38
+2024-03-23 22:25:09,030 WARN  [http-nio-8080-exec-7] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [com.bimetri.demo.exception.ConflictException: You have reached the maximum number of course registrations!]
+2024-03-23 22:25:09,491 INFO  [http-nio-8080-exec-3] com.bimetri.demo.controller.CourseController:Enrool Student ID: 6 and Course ID: 38
+2024-03-23 22:25:09,491 INFO  [http-nio-8080-exec-3] com.bimetri.demo.service.CourseService:Fetching course with Student ID: 6, Course ID: 38
+2024-03-23 22:25:09,500 WARN  [http-nio-8080-exec-3] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [com.bimetri.demo.exception.ConflictException: You have reached the maximum number of course registrations!]
