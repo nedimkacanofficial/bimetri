@@ -136,12 +136,15 @@ public class CourseService {
     /**
      * Deletes a course by its ID.
      * <p>
-     * This method deletes a course from the database based on the provided ID. It first retrieves the course from the
-     * database using the given ID. If the course does not exist, it throws a ResourceNotFoundException. Then, it deletes
-     * the retrieved course from the database using the course repository.
+     * This method retrieves a course from the database based on the provided ID. If the course exists, it is deleted
+     * from the database. If no course exists with the provided ID, it throws a ResourceNotFoundException.
+     * <p>
+     * Note: Deleting a course might fail if one or more students are currently enrolled in it. In such cases, the method
+     * will throw an IllegalStateException indicating that the course cannot be deleted due to existing enrollments.
      *
      * @param id The ID of the course to be deleted.
      * @throws ResourceNotFoundException If no course exists with the provided ID.
+     * @throws IllegalStateException     If the course cannot be deleted due to existing enrollments.
      */
     public void deleteById(Long id) throws ResourceNotFoundException {
         log.info("Deleting course with ID: {}", id);

@@ -13,6 +13,7 @@ import com.bimetri.demo.repository.CourseRepository;
 import com.bimetri.demo.repository.StudentRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -141,10 +142,18 @@ public class StudentService {
     public void deleteById(Long id) throws ResourceNotFoundException {
         log.info("Deleting student with ID: {}", id);
 
-        Student student = this.studentRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException(String.format(ErrorMessage.RESOURCE_NOT_FOUND_MESSAGE, id)));
+        Student student = this.studentRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException(String.format(ErrorMessage.RESOURCE_NOT_FOUND_MESSAGE, id)));
 
-        this.studentRepository.deleteById(student.getId());
+        try {
+            this.studentRepository.deleteById(student.getId());
+        } catch (DataIntegrityViolationException ex) {
+            log.error("Could not delete student due to database integrity violation: {}", ex.getMessage());
+
+            throw new IllegalStateException(String.format(ErrorMessage.ILLEGAL_EXCEPTION));
+        }
     }
+
 
     /**
      * Retrieves students who are not enrolled in any courses.

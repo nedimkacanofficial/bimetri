@@ -7,4 +7,5 @@ public class ErrorMessage {
     public static final String DUPLICATE_NAME = "There is already a record with the name %s.";
     public static final String DUPLICATE_SCHOOL_NUMBER = "There is already a record with the school number %s.";
     public static final String DUPLICATE_COURSE = "Student is already enrolled in this course.";
+    public static final String ILLEGAL_EXCEPTION = "The record could not be deleted because it is enrolled in one or more courses.";
 }
