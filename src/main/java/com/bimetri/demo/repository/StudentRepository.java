@@ -9,4 +9,6 @@ import java.util.List;
 @Repository
 public interface StudentRepository extends JpaRepository<Student, Long> {
     List<Student> findByCoursesIsNull();
+
+    boolean existsBySchoolNumber(String schoolNumber);
 }

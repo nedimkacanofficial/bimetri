@@ -5,6 +5,7 @@ import com.bimetri.demo.domain.Student;
 import com.bimetri.demo.dto.request.StudentRequestDto;
 import com.bimetri.demo.dto.response.StudentAndCoursesResponseDto;
 import com.bimetri.demo.dto.response.StudentResponseDto;
+import com.bimetri.demo.exception.ConflictException;
 import com.bimetri.demo.exception.ResourceNotFoundException;
 import com.bimetri.demo.exception.message.ErrorMessage;
 import com.bimetri.demo.mapper.StudentMapper;
@@ -84,15 +85,23 @@ public class StudentService {
     }
 
     /**
-     * Creates a new student.
+     * Creates a new student in the system.
      * <p>
-     * This method creates a new student entity in the database based on the information provided
-     * in the StudentRequestDto object.
+     * This method is responsible for creating a new student based on the provided StudentRequestDto object.
+     * It first checks if a student with the same school number already exists in the database. If a student with
+     * the same school number is found, a ConflictException is thrown to indicate the duplication. Otherwise,
+     * the method proceeds to save the new student by converting the StudentRequestDto object to an entity using
+     * the StudentMapper and then persisting it into the database.
      *
-     * @param studentRequestDto The StudentRequestDto containing information about the student to be created.
+     * @param studentRequestDto The StudentRequestDto object containing the information of the student to be created
+     * @throws ConflictException Thrown if a student with the same school number already exists in the database
      */
     public void create(StudentRequestDto studentRequestDto) {
         log.info("Creating a new student.");
+
+        if (this.studentRepository.existsBySchoolNumber(studentRequestDto.getSchoolNumber())) {
+            throw new ConflictException(String.format(ErrorMessage.DUPLICATE_SCHOOL_NUMBER, studentRequestDto.getSchoolNumber()));
+        }
 
         this.studentRepository.save(StudentMapper.toEntity(studentRequestDto));
     }

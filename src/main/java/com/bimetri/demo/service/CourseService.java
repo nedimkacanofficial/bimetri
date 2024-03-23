@@ -89,19 +89,27 @@ public class CourseService {
     }
 
     /**
-     * Creates a new course.
+     * Creates a new course in the system.
      * <p>
-     * This method creates a new course based on the information provided in the CourseRequestDto.
-     * It converts the CourseRequestDto object to a Course entity and saves it to the database using
-     * the course repository.
+     * This method is responsible for creating a new course based on the provided CourseRequestDto object.
+     * It first checks if a course with the same name already exists in the database. If a course with the same name
+     * is found, a ConflictException is thrown to indicate the duplication. Otherwise, the method proceeds to save
+     * the new course by converting the CourseRequestDto object to an entity using the CourseMapper and then
+     * persisting it into the database.
      *
-     * @param courseRequestDto The CourseRequestDto object containing the information of the new course.
+     * @param courseRequestDto The CourseRequestDto object containing the information of the course to be created
+     * @throws ConflictException Thrown if a course with the same name already exists in the database
      */
     public void create(CourseRequestDto courseRequestDto) {
         log.info("Creating a new course.");
 
+        if (this.courseRepository.existsByName(courseRequestDto.getName())) {
+            throw new ConflictException(String.format(ErrorMessage.DUPLICATE_NAME, courseRequestDto.getName()));
+        }
+
         this.courseRepository.save(CourseMapper.toEntity(courseRequestDto));
     }
+
 
     /**
      * Updates an existing course.
